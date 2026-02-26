@@ -5,19 +5,9 @@ import { api } from '../services/api';
 import { TotalItbisHero } from '../components/TotalItbisHero';
 import { ComprobantesTable } from '../components/ComprobantesTable';
 
-type Comprobante = {
-    ncf: string;
-    monto: number;
-    itbis18: number;
-};
+import type { ContribuyenteDetalle } from '../types/contribuyente';
 
-type Detalle = {
-    rncCedula: string;
-    comprobantes: Comprobante[];
-    totalItbis: number;
-};
-
-const fetcher = (url: string) => api.get<Detalle>(url).then((res) => res.data);
+const fetcher = (url: string) => api.get<ContribuyenteDetalle>(url).then((res) => res.data);
 
 const formatCurrency = (value: number) => {
     return new Intl.NumberFormat('es-DO', { style: 'currency', currency: 'DOP' }).format(value);

@@ -3,13 +3,7 @@ import { Activity } from 'lucide-react';
 import { api } from '../services/api';
 import { ContribuyenteCard } from '../components/ContribuyenteCard';
 
-// Tipos reflejando el DTO de C#
-export type Contribuyente = {
-    rncCedula: string;
-    nombre: string;
-    tipo: string;
-    estatus: string;
-};
+import type { Contribuyente } from '../types/contribuyente';
 
 const fetcher = (url: string) => api.get<Contribuyente[]>(url).then((res) => res.data);
 

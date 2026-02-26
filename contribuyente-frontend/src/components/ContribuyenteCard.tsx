@@ -1,12 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Users, FileText } from 'lucide-react';
 
-interface Contribuyente {
-    rncCedula: string;
-    nombre: string;
-    tipo: string;
-    estatus: string;
-}
+import type { Contribuyente } from '../types/contribuyente';
 
 interface ContribuyenteCardProps {
     contribuyente: Contribuyente;

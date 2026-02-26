@@ -1,10 +1,6 @@
 import { Receipt } from 'lucide-react';
 
-interface Comprobante {
-    ncf: string;
-    monto: number;
-    itbis18: number;
-}
+import type { Comprobante } from '../types/contribuyente';
 
 interface ComprobantesTableProps {
     comprobantes: Comprobante[];
