@@ -167,3 +167,5 @@
 /Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Tests/obj/Debug/net9.0/ContribuyenteApi.Tests.pdb
 /Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Tests/obj/Debug/net9.0/ContribuyenteApi.Tests.genruntimeconfig.cache
 /Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Tests/obj/Debug/net9.0/ref/ContribuyenteApi.Tests.dll
+/Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Tests/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.InMemory.dll
+/Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Tests/obj/Debug/net9.0/ContribuyenteApi.Tests.sourcelink.json
