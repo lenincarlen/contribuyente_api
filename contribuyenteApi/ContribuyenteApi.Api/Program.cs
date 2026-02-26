@@ -1,7 +1,7 @@
-using Microsoft.EntityFrameworkCore;
+using ContribuyenteApi.Infrastructure;
+using ContribuyenteApi.Application;
+using ContribuyenteApi.Application.Interfaces;
 using ContribuyenteApi.Infrastructure.Data;
-using ContribuyenteApi.Domain.Interfaces;
-using ContribuyenteApi.Application.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,13 +9,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
 
-// Config base datos (In-Memory)
-builder.Services.AddDbContext<AppDbContext>(opts => 
-    opts.UseInMemoryDatabase("DgiiDb"));
-
-// Inyección de dependencias (Scoped por request HTTP)
-builder.Services.AddScoped<IContribuyenteRepository, ContribuyenteRepository>();
-builder.Services.AddScoped<IContribuyenteService, ContribuyenteService>();
+// Registro de servicios por capas (DI Modular)
+builder.Services.AddInfrastructureServices(builder.Configuration);
+builder.Services.AddApplicationServices();
 
 builder.Services.AddCors(options =>
 {

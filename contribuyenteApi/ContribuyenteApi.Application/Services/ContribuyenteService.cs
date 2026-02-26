@@ -5,16 +5,11 @@ using System.Threading;
 using System.Threading.Tasks;
 using ContribuyenteApi.Application.Common;
 using ContribuyenteApi.Application.DTOs;
+using ContribuyenteApi.Application.Interfaces;
 using ContribuyenteApi.Domain.Interfaces;
 using Microsoft.Extensions.Logging;
 
 namespace ContribuyenteApi.Application.Services;
-
-public interface IContribuyenteService
-{
-    Task<Result<IReadOnlyList<ContribuyenteDto>>> GetAllAsync(CancellationToken ct = default);
-    Task<Result<ContribuyenteDetalleDto>> GetDetalleAsync(string rncCedula, CancellationToken ct = default);
-}
 
 public class ContribuyenteService : IContribuyenteService
 {
