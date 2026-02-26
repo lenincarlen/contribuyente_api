@@ -51,12 +51,12 @@ export default function DetalleContribuyente() {
             ) : data ? (
                 <div className="space-y-8">
                     {/* Tarjeta Hero / Total */}
-                    <div className="bg-gray-900 text-white p-8 sm:p-10 rounded-3xl relative overflow-hidden shadow-xl shadow-gray-200/50">
+                    <div className="bg-gray-100 text-white p-8 sm:p-10 rounded-3xl relative overflow-hidden shadow-xl shadow-gray-200/50">
                         <div className="absolute -right-8 -top-8 w-40 h-40 bg-white/5 rounded-full blur-2xl pointer-events-none" />
                         <div className="absolute right-20 -bottom-10 w-32 h-32 bg-blue-500/20 rounded-full blur-3xl pointer-events-none" />
 
                         <div className="relative z-10">
-                            <div className="flex items-center gap-2 text-gray-300 font-medium tracking-wide text-sm mb-3">
+                            <div className="flex items-center gap-2 text-gray-700 font-medium tracking-wide text-sm mb-3">
                                 <Calculator size={16} />
                                 <span>TOTAL ITBIS DECLARADO</span>
                             </div>
@@ -72,7 +72,7 @@ export default function DetalleContribuyente() {
                     {/* Tabla de comprobantes */}
                     <div>
                         <div className="flex items-center gap-3 mb-6 px-1">
-                            <div className="bg-blue-50 p-2 rounded-lg text-blue-600">
+                            <div className="bg-blue-50 p-2 rounded-lg text-green-600">
                                 <Receipt size={20} />
                             </div>
                             <h3 className="text-xl font-semibold text-gray-900">Histórico de Comprobantes</h3>

@@ -51,11 +51,11 @@ export default function ListadoContribuyentes() {
                             <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-br from-blue-50 to-transparent opacity-0 group-hover:opacity-100 transition-smooth rounded-bl-full pointer-events-none" />
 
                             <div className="flex items-center gap-3 mb-4">
-                                <div className="p-2.5 bg-gray-50 text-gray-600 rounded-xl group-hover:bg-blue-50 group-hover:text-blue-600 transition-smooth">
+                                <div className="p-2.5 bg-gray-50 text-green-600 rounded-xl group-hover:bg-green-50 group-hover:text-green-600 transition-smooth">
                                     {contribuyente.tipo === 'PERSONA JURIDICA' ? <BuildingIcon /> : <Users size={20} strokeWidth={2} />}
                                 </div>
                                 <div>
-                                    <h3 className="font-semibold text-gray-900 group-hover:text-blue-700 transition-smooth line-clamp-1">
+                                    <h3 className="font-semibold text-gray-900 group-hover:text-green-700 transition-smooth line-clamp-1">
                                         {contribuyente.nombre}
                                     </h3>
                                     <p className="text-xs text-gray-500 uppercase tracking-wider font-medium font-mono mt-0.5">
