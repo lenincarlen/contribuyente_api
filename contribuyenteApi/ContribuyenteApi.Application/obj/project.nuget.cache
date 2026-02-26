@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "9JbO3Vk0h+w=",
+  "success": true,
+  "projectFilePath": "/Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Application/ContribuyenteApi.Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/leninmejia/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.3/microsoft.extensions.dependencyinjection.abstractions.10.0.3.nupkg.sha512",
+    "/Users/leninmejia/.nuget/packages/microsoft.extensions.logging.abstractions/10.0.3/microsoft.extensions.logging.abstractions.10.0.3.nupkg.sha512",
+    "/Users/leninmejia/.nuget/packages/system.diagnostics.diagnosticsource/10.0.3/system.diagnostics.diagnosticsource.10.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

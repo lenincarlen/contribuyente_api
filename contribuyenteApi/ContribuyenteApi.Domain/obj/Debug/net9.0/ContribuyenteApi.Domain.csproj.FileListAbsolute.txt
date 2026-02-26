@@ -1,0 +1,11 @@
+/Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Domain/obj/Debug/net9.0/ContribuyenteApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Domain/obj/Debug/net9.0/ContribuyenteApi.Domain.AssemblyInfoInputs.cache
+/Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Domain/obj/Debug/net9.0/ContribuyenteApi.Domain.AssemblyInfo.cs
+/Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Domain/obj/Debug/net9.0/ContribuyenteApi.Domain.csproj.CoreCompileInputs.cache
+/Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Domain/bin/Debug/net9.0/ContribuyenteApi.Domain.deps.json
+/Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Domain/bin/Debug/net9.0/ContribuyenteApi.Domain.dll
+/Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Domain/bin/Debug/net9.0/ContribuyenteApi.Domain.pdb
+/Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Domain/obj/Debug/net9.0/ContribuyenteApi.Domain.dll
+/Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Domain/obj/Debug/net9.0/refint/ContribuyenteApi.Domain.dll
+/Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Domain/obj/Debug/net9.0/ContribuyenteApi.Domain.pdb
+/Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Domain/obj/Debug/net9.0/ref/ContribuyenteApi.Domain.dll

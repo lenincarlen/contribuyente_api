@@ -1,0 +1,15 @@
+/Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Application/obj/Debug/net9.0/ContribuyenteApi.Application.csproj.AssemblyReference.cache
+/Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Application/obj/Debug/net9.0/ContribuyenteApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Application/obj/Debug/net9.0/ContribuyenteApi.Application.AssemblyInfoInputs.cache
+/Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Application/obj/Debug/net9.0/ContribuyenteApi.Application.AssemblyInfo.cs
+/Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Application/obj/Debug/net9.0/ContribuyenteApi.Application.csproj.CoreCompileInputs.cache
+/Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Application/bin/Debug/net9.0/ContribuyenteApi.Application.deps.json
+/Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Application/bin/Debug/net9.0/ContribuyenteApi.Application.dll
+/Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Application/bin/Debug/net9.0/ContribuyenteApi.Application.pdb
+/Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Application/bin/Debug/net9.0/ContribuyenteApi.Domain.dll
+/Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Application/bin/Debug/net9.0/ContribuyenteApi.Domain.pdb
+/Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Application/obj/Debug/net9.0/Contribu.9018100B.Up2Date
+/Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Application/obj/Debug/net9.0/ContribuyenteApi.Application.dll
+/Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Application/obj/Debug/net9.0/refint/ContribuyenteApi.Application.dll
+/Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Application/obj/Debug/net9.0/ContribuyenteApi.Application.pdb
+/Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Application/obj/Debug/net9.0/ref/ContribuyenteApi.Application.dll
