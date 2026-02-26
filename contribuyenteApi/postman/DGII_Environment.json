@@ -1,0 +1,17 @@
+{
+    "id": "f5e4d3c2-b1a0-4a9b-8c7d-6e5f4d3c2b1a",
+    "name": "DGII Local",
+    "values": [
+        {
+            "key": "baseUrl",
+            "value": "http://localhost:5097",
+            "enabled": true
+        },
+        {
+            "key": "rncCedula",
+            "value": "98754321012",
+            "enabled": true
+        }
+    ],
+    "_postman_variable_scope": "environment"
+}
