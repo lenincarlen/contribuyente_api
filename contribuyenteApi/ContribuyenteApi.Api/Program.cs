@@ -17,13 +17,21 @@ builder.Services.AddDbContext<AppDbContext>(opts =>
 builder.Services.AddScoped<IContribuyenteRepository, ContribuyenteRepository>();
 builder.Services.AddScoped<IContribuyenteService, ContribuyenteService>();
 
-builder.Services.AddCors();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend", policy =>
+    {
+        policy.WithOrigins("http://localhost:3000") // Puerto específico asignado al Frontend
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-app.UseCors(b => b.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+app.UseCors("AllowFrontend");
 
 // Manejo global de excepciones (Middleware nativo de Minimal APIs)
 app.UseExceptionHandler(exceptionHandlerApp =>
