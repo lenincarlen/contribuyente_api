@@ -17,3 +17,4 @@
 /Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Infrastructure/obj/Debug/net9.0/ContribuyenteApi.Infrastructure.pdb
 /Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Infrastructure/obj/Debug/net9.0/ContribuyenteApi.Infrastructure.genruntimeconfig.cache
 /Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Infrastructure/obj/Debug/net9.0/ref/ContribuyenteApi.Infrastructure.dll
+/Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Infrastructure/obj/Debug/net9.0/ContribuyenteApi.Infrastructure.sourcelink.json

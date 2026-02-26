@@ -9,9 +9,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
 
-// Config base datos (In-Memory o SQL Server)
+// Config base datos (In-Memory)
 builder.Services.AddDbContext<AppDbContext>(opts => 
-    opts.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
+    opts.UseInMemoryDatabase("DgiiDb"));
 
 // Inyección de dependencias (Scoped por request HTTP)
 builder.Services.AddScoped<IContribuyenteRepository, ContribuyenteRepository>();
@@ -30,6 +30,28 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+// --- Seed Data (Datos de prueba en memoria) ---
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    context.Database.EnsureCreated();
+    
+    if (!context.Contribuyentes.Any())
+    {
+        var c1 = new ContribuyenteApi.Domain.Entities.Contribuyente { RncCedula = "98754321012", Nombre = "JUAN PEREZ", Tipo = "PERSONA FISICA", Estatus = "activo" };
+        var c2 = new ContribuyenteApi.Domain.Entities.Contribuyente { RncCedula = "123456789", Nombre = "FARMACIA TU SALUD", Tipo = "PERSONA JURIDICA", Estatus = "inactivo" };
+        
+        context.Contribuyentes.AddRange(c1, c2);
+        
+        context.ComprobantesFiscales.AddRange(
+            new ContribuyenteApi.Domain.Entities.ComprobanteFiscal { Ncf = "E310000000001", RncCedula = "98754321012", Monto = 200.00m, Itbis18 = 36.00m },
+            new ContribuyenteApi.Domain.Entities.ComprobanteFiscal { Ncf = "E310000000002", RncCedula = "98754321012", Monto = 1000.00m, Itbis18 = 180.00m }
+        );
+        
+        context.SaveChanges();
+    }
+}
 
 app.UseCors("AllowFrontend");
 

@@ -6,7 +6,7 @@ interface LogoProps {
 
 export const Logo = ({ src }: LogoProps) => (
     <div className="flex items-center gap-3 group">
-        <div className="w-10 h-10 flex items-center justify-center bg-gray-50 rounded-xl overflow-hidden group-hover:scale-105 transition-all duration-300 ease-in-out border border-gray-100">
+        <div className="w-10 h-10 flex items-center justify-center   overflow-hidden group-hover:scale-105 transition-all duration-300 ">
             {src ? (
                 <img src={src} alt="DGII Logo" className="w-full h-full object-contain p-1" />
             ) : (

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bfiQ1UxaCz4=",
+  "dgSpecHash": "lUecVw/CB9Q=",
   "success": true,
   "projectFilePath": "/Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Api/ContribuyenteApi.Api.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "/Users/leninmejia/.nuget/packages/microsoft.entityframeworkcore/9.0.2/microsoft.entityframeworkcore.9.0.2.nupkg.sha512",
     "/Users/leninmejia/.nuget/packages/microsoft.entityframeworkcore.abstractions/9.0.2/microsoft.entityframeworkcore.abstractions.9.0.2.nupkg.sha512",
     "/Users/leninmejia/.nuget/packages/microsoft.entityframeworkcore.analyzers/9.0.2/microsoft.entityframeworkcore.analyzers.9.0.2.nupkg.sha512",
+    "/Users/leninmejia/.nuget/packages/microsoft.entityframeworkcore.inmemory/9.0.2/microsoft.entityframeworkcore.inmemory.9.0.2.nupkg.sha512",
     "/Users/leninmejia/.nuget/packages/microsoft.entityframeworkcore.relational/9.0.2/microsoft.entityframeworkcore.relational.9.0.2.nupkg.sha512",
     "/Users/leninmejia/.nuget/packages/microsoft.entityframeworkcore.sqlserver/9.0.2/microsoft.entityframeworkcore.sqlserver.9.0.2.nupkg.sha512",
     "/Users/leninmejia/.nuget/packages/microsoft.extensions.apidescription.server/9.0.0/microsoft.extensions.apidescription.server.9.0.0.nupkg.sha512",

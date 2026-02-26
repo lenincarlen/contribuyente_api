@@ -13,3 +13,4 @@
 /Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Application/obj/Debug/net9.0/refint/ContribuyenteApi.Application.dll
 /Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Application/obj/Debug/net9.0/ContribuyenteApi.Application.pdb
 /Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Application/obj/Debug/net9.0/ref/ContribuyenteApi.Application.dll
+/Users/leninmejia/Documents/dgii-test/contribuyenteApi/ContribuyenteApi.Application/obj/Debug/net9.0/ContribuyenteApi.Application.sourcelink.json
