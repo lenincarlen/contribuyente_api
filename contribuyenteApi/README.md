@@ -8,6 +8,21 @@ Este es el backend de la prueba técnica para la DGII, construido con .NET 9.
 - Inyección de dependencias modular.
 - Base de Datos en Memoria (InMemory) para fácil prueba.
 
+## Puntos Extra Implementados
+
+- **Persistencia SQL**: Migrado de base de datos en memoria a **SQL Server real** utilizando Entity Framework Core.
+- **Dockerización**: Proyecto completamente dockerizado. Incluye `Dockerfile` para la API y `docker-compose.yml` para orquestar la API y SQL Server.
+
+## Cómo ejecutar con Docker
+
+Para levantar todo el entorno (API + Base de Datos) con un solo comando, ejecuta desde la raíz:
+
+```bash
+docker-compose up --build
+```
+
+La API estará disponible en `http://localhost:5097` y aplicará las migraciones automáticamente al iniciar.
+
 ## Documentación de la API
 
 Si quieres probar los endpoints de manera rápida, he preparado una colección de Postman que ya incluye el ambiente configurado con variables como `{{baseUrl}}` y `{{rncCedula}}`. Solo tienes que importarlos y estarás listo para testear.

@@ -10,9 +10,9 @@ public static class DependencyInjection
 {
     public static IServiceCollection AddInfrastructureServices(this IServiceCollection services, IConfiguration configuration)
     {
-        // Config base datos (In-Memory)
+        // Config base datos (SQL Server)
         services.AddDbContext<AppDbContext>(opts => 
-            opts.UseInMemoryDatabase("DgiiDb"));
+            opts.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
 
         // Inyección de dependencias de Repositorios
         services.AddScoped<IContribuyenteRepository, ContribuyenteRepository>();

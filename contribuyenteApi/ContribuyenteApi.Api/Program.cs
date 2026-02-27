@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using ContribuyenteApi.Infrastructure;
 using ContribuyenteApi.Application;
 using ContribuyenteApi.Application.Interfaces;
@@ -27,11 +28,20 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// --- Seed Data (Datos de prueba en memoria) ---
+// --- Seed Data (Datos de prueba en memoria o SQL) ---
 using (var scope = app.Services.CreateScope())
 {
     var context = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-    context.Database.EnsureCreated();
+    
+    // Aplicar migraciones automáticamente si es SQL Server
+    if (context.Database.IsSqlServer())
+    {
+        context.Database.Migrate();
+    }
+    else 
+    {
+        context.Database.EnsureCreated();
+    }
     
     if (!context.Contribuyentes.Any())
     {
