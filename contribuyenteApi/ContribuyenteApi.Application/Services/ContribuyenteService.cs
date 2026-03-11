@@ -13,7 +13,7 @@ namespace ContribuyenteApi.Application.Services;
 
 public class ContribuyenteService : IContribuyenteService
 {
-    private readonly IContribuyenteRepository _repository;
+    private readonly IContribuyenteRepository  _repository;
     private readonly ILogger<ContribuyenteService> _logger;
 
     public ContribuyenteService(IContribuyenteRepository repository, ILogger<ContribuyenteService> logger)

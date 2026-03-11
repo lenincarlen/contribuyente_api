@@ -14,7 +14,7 @@ public static class DependencyInjection
         services.AddDbContext<AppDbContext>(opts => 
             opts.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
 
-        // Inyección de dependencias de Repositorios
+        // Inyección de dependencias de Repositorios y  compartirá durante toda esa petición.
         services.AddScoped<IContribuyenteRepository, ContribuyenteRepository>();
 
         return services;
